@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet2ScrollBackground</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="accueil">
+        <h1>Envie de nature</h1>
+        <img src="ressources/hommedecoupe.png" class="front">
+
+        <div class="contenu">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus ipsum in quae dignissimos expedita distinctio, esse cupiditate! Magnam sed hic sunt minima facilis quia molestias sit nam quod veritatis magni, ipsum odit ipsam, aperiam dolores officiis accusantium corporis quibusdam perferendis inventore nesciunt, nostrum quidem ipsa error! Quae odit nobis, velit, maiores dolores illo itaque magnam eaque ad numquam quas consectetur autem quo esse dolor nisi ut nesciunt repellendus. Obcaecati quos ullam doloremque labore adipisci ipsa, ducimus placeat officiis, et dolore deserunt molestias ipsam perspiciatis voluptatem commodi dignissimos illo sequi illum voluptas voluptates! Suscipit impedit, cumque doloremque odit possimus adipisci non quidem ex error quae architecto, pariatur maiores doloribus tempora numquam illum minus excepturi cupiditate dignissimos, a similique natus est harum. Laudantium obcaecati expedita sed recusandae molestiae architecto ea facilis esse eaque. Ipsa rem accusantium architecto aperiam fugit veritatis quibusdam non velit temporibus in illum autem quam eum neque, quidem cupiditate voluptates! Ex eius, esse explicabo reprehenderit alias temporibus doloribus mollitia impedit id vel excepturi tempore consequatur necessitatibus accusamus atque laudantium dolor voluptates ipsum sequi asperiores saepe cumque odio perferendis. Recusandae dolorem deleniti dignissimos ex eveniet! Nemo sint itaque corporis eligendi deleniti temporibus dignissimos, laudantium est facilis libero eius deserunt voluptate vero velit nulla accusamus ducimus unde ipsum doloribus ratione cupiditate? Architecto, excepturi facere delectus minima animi ullam enim, eveniet laborum eius voluptates doloribus perspiciatis? Eum, blanditiis excepturi, neque nobis quasi dolor incidunt esse nostrum modi corrupti quo, debitis illum. Maxime architecto doloribus voluptatem, perferendis soluta inventore dolor tempora? Numquam nostrum explicabo enim et facere unde. Est illo cumque molestias sapiente pariatur ipsa tempora veritatis natus impedit necessitatibus similique eaque, ipsam saepe, qui doloribus nisi provident at inventore aliquid debitis. Et laborum eaque ab optio fuga praesentium exercitationem voluptatum, harum neque impedit aspernatur dignissimos culpa possimus delectus quae vel, molestias magnam quis at temporibus accusamus quas distinctio pariatur. Possimus eum nisi quibusdam! Harum illo consequuntur optio provident. Eum ducimus quidem harum enim non accusantium? Quas perferendis atque molestiae aspernatur, pariatur temporibus laborum adipisci, ad accusamus neque alias quia in dolores fugiat optio molestias quis iusto accusantium. Illo, corporis totam expedita eveniet modi suscipit tempore quidem natus illum culpa consectetur aliquam sunt porro aliquid, optio iste architecto blanditiis cum corrupti, reprehenderit repudiandae sint rerum minus ex. Sed, illo iure eius eveniet accusamus rerum expedita quas architecto, consequuntur aliquam ratione eum labore corrupti doloribus id molestiae similique omnis illum soluta voluptatibus. Sunt necessitatibus vel illo in ipsam inventore maxime non molestiae cumque quis? Hic veritatis laudantium alias, modi quidem at cum ipsa adipisci illo praesentium aliquam doloribus reiciendis non impedit beatae pariatur assumenda? Architecto vitae deleniti praesentium nulla quasi alias ducimus excepturi mollitia soluta quidem temporibus nesciunt quisquam repellendus maxime magni distinctio, rerum incidunt nemo sapiente laborum corporis doloremque officiis minima? Natus architecto nostrum, iusto accusantium soluta quo hic quos ex, consequuntur possimus earum dolorem voluptatum alias ullam dolor! Praesentium assumenda voluptatibus illo animi nam harum maiores nihil ratione vero autem incidunt dolorum suscipit sequi id vitae voluptates earum odio fuga, itaque sed temporibus, nisi dolorem deleniti eaque. Reiciendis dignissimos vel sed porro explicabo odit minima, vitae atque soluta maxime? Similique suscipit animi veniam distinctio, magni velit labore eum atque facere tempore fuga ex eaque autem pariatur amet illum provident rem consequatur optio sunt illo voluptas molestias dicta blanditiis! Expedita ipsum voluptate maiores, ipsa esse suscipit inventore nesciunt itaque unde quos amet veritatis ratione, nemo eos aspernatur deserunt sit, et veniam. Est illum eius beatae, modi itaque cupiditate suscipit necessitatibus soluta ex eos veritatis aliquid quas maxime quo aliquam voluptatibus. Ea quas ipsa non facere, aperiam accusantium consequatur libero. Velit harum recusandae ex quo repellat nemo, quidem reprehenderit quibusdam minima eaque blanditiis voluptates ut fugit veniam unde culpa. Veniam illo, a cupiditate repudiandae laboriosam voluptate? Molestiae possimus ipsum quasi laboriosam. Laudantium maiores voluptatibus numquam impedit cupiditate. Incidunt, illo animi enim itaque eveniet provident doloremque praesentium dolor quisquam asperiores? Ea vitae provident minima facilis harum animi repellendus in vel ut aperiam deleniti quia voluptatibus nam doloremque repudiandae, consectetur, alias quam? At consequatur excepturi placeat numquam ipsum tenetur totam deleniti perspiciatis et, ipsa fugit nam animi eum asperiores error repudiandae itaque eaque amet aut! Adipisci vero ratione soluta molestiae exercitationem iusto dolorum quasi illo.</p>
+        </div>
+    </div>
+
+<script>
+
+const accueil = document.querySelector('.accueil');
+
+document.addEventListener('scroll', () => {
+    let scrollPos = document.documentElement.scrollTop;
+    // console.log(scrollPos);
+
+    accueil.style.backgroundSize = `${100 + scrollPos / 10}%`;
+
+})
+
+</script>
+    
+</body>
+</html>
